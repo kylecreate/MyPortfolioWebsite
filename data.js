@@ -1,50 +1,53 @@
 /* eslint-disable import/no-anonymous-default-export */
 export default {
-  name: "Henry",
-  email: "therealjohndoe@gmail.com",
+  name: "Kyle",
+  email: "createkyle@protonmail.com",
   about:
-    "Hey! I'm <b>Henry</b>, a twenty-four years old <b>User Interface</b> and <b>Experience Designer</b> currently based in <b>California</b>.",
+    "Hey! I'm <b>Kyle</b>, a twenty-four years old <b>User Interface</b> and <b>Experience Designer</b> currently based in <b>California</b>.",
 
   // intro
   accomplishments: {
     name: "Recent Accomplishments",
     value: [
-      "Learned HTML + CSS",
-      "Started a side project",
-      "Cooked meal for myself and choked to death",
+     	"Learned HTML + CSS",
+     	"Started a side project",
+     	"Cooked meal for myself and choked to death",
+	"This is a test line",
     ],
   },
   socialLink: {
     name: "Social Links",
     value: [
-      { name: "Instagram", link: "/" },
-      { name: "Dribbble", link: "/" },
-      { name: "Twitter", link: "/" },
-      { name: "Github", link: "/" },
-      { name: "Youtube", link: "/" },
-      { name: "Spotify", link: "/" },
+      { name: "Behance", link: "https://www.behance.net/kylecreate" },
+      { name: "Twitter", link: "https://www.twitter.com/kylecreate" },
+      { name: "Spotify", link: "https://www.spotify.com" },
     ],
   },
   currentProfession: {
-    name: "Currently",
+    name: "What I'm working on",
 	  value: [
 		  "Doing contract/freelance work",
 		  "Available for new projects"
+		  "Enjoying time"
 	  ],
   },
 
   // Footer
   contactDetails: {
-    name: "Ways to contact me",
+    name: "Let's conntact!",
     value: [
       {
         name: "Gmail",
-        value: "therealjohndoe@gmail.com",
+        value: "kylecreate@protonmail.com",
       },
       {
         name: "Discord",
-        value: "DopeAss#9669",
+        value: "kyle.#0500",
       },
+	{
+	name: "Twitter",
+        value: "kylecreate",
+	},
     ],
   },
   currentStatus: {
@@ -52,6 +55,7 @@ export default {
     value: [
       "Walking my dog in the park",
       "Making dog excuse to gawk at the hot girl",
+	    "Working on things",
     ],
   },
 
@@ -62,7 +66,7 @@ export default {
   workExperience: [
     {
       info: {
-        "Company": ["Apple"],
+        "Project": ["Apple"],
         "Description": [
           "Looking to improve the overall quality of the product through a design thinking approach, as well as conducting Usability sessions to ensure the product appeals to our users.",
         ],
